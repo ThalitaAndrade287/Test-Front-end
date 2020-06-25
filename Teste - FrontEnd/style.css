@@ -1,0 +1,220 @@
+body{
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#image-background {
+    height: 200px;
+    width:  100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+img#image-logo {
+    height: 60px;
+    width: 86px;
+    top: 40px;
+    left: 139px;
+    position: absolute;
+}
+
+div#content-form-candidate{
+    display: flex;
+    top: 130px;
+    position: absolute;
+}
+
+div#content-form{
+    width: 486px;
+    height: 583px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 2px #2E2D2C66;
+    border-radius: 4px;
+    margin-right: 30px;
+    padding-left: 31px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+#title-form {
+    font-family: 'Open Sans' Bold;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0px;
+    margin: 0%;
+}
+
+#paragraph-form{
+    font-family: 'Open Sans' Regular;
+    letter-spacing: 0px;
+    font-size: 14px;
+    padding-right: 54px;
+    padding-top: 20px; 
+    margin: 0%;
+}
+
+#title-data {
+    font-family: 'Open Sans' Semibold;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0px;
+    padding-top: 30px;
+    margin: 0%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+div#form-phone{
+    display: flex;
+}
+
+#form-phone div {
+    margin-right: 30px;
+}
+
+button {
+    background: #3570B2;
+    border-radius: 20px;
+    border: 0;
+    width: 88px;
+    height: 40px;
+    margin-top: 48px;
+    color: #FFFFFF;
+    font-family: Semibold 'Open Sans';
+}
+
+div#candidate-data{
+    width: 486px;
+    height: 583px;
+    background: #EBF0F5 0% 0% no-repeat padding-box;
+    border: 1px solid #C4C8CC;
+    border-radius: 4px;
+}
+
+#text-top {
+    font-family: Bold 'Open Sans';
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #403D70;
+    padding-top: 25px;
+    padding-left: 30px; 
+}
+
+#paragraph {
+    font-family: Italic 'Open Sans';
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    padding-left: 30px; 
+    padding-right: 101px; 
+}
+
+#title-projects{
+    font-family: Semibold 'Open Sans';
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding-left: 30px; 
+    margin: 0%;
+}
+
+div#border-top{
+    width: 486px;
+    height: 10px;
+    background: #C4C8CC 0% 0% no-repeat padding-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+form {
+    margin-right: 30px; 
+}
+
+form p{
+    font-family: Regular 'Open Sans';
+    font-size: 10px;
+    letter-spacing: 0.15px;
+    margin: 0%
+}
+
+label {
+    margin: 0%;
+    font-family: Regular 'Open Sans';
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin-top: 20px
+}
+
+input.form-control {
+    border-radius: 2px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+input.form-control:hover{
+    border: 2px solid #3570B2;
+}
+
+footer {
+    background:transparent linear-gradient(116deg, #5A5789 0%, #2D2C45 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    width: 100%;
+    height: 62px;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute
+}
+
+.required:before {
+    content:"* "; 
+    color: red;
+}
+
+#formValues {
+    height: 228px;
+    width: 428px;
+    margin-left: 30px; 
+    margin-bottom: 30px 
+}
+
+div#text-footer {
+    font: Bold 14px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.info-user {
+    font-family: Semibold 'Open Sans';
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.title-info {
+    font-family: Regular 'Open Sans';
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin: 0%
+}
+
+#imgcarousel {
+    width: 174px;
+    height: 120px;
+    margin-right: 5px;
+}
+
+#carousel {
+    margin-top: 19px;
+    margin-left: 60px
+}

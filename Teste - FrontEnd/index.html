@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Docket</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+    <header>
+        <img id="image-background" src="assets/art-header.png" />
+
+        <img id="image-logo" src="assets/logo.png" />
+    </header>
+
+    <div id="content-form-candidate">
+        <div id="content-form">
+            <p id="title-form">Venha trabalhar na Docket</p>
+
+            <p id="paragraph-form">
+                Preencha o formulário abaixo e venha trabalhar em uma das startups mais desejadas do Brasil!
+            </p>
+
+            <h3 id="title-data">Dados pessoais</h3>
+
+            <form onsubmit="sendForm(event)">
+                <label for="name" class="required">Nome completo:</label>
+                <input type="text" class="form-control" required="required" placeholder="Seu nome completo" id="name"
+                    name="name">
+                <p>Mensagem de feedback</p>
+
+                <label for="email" class="required">E-mail:</label>
+                <input type="text" class="form-control" required="required" placeholder="seunome@sobrenome.com.br"
+                    id="email" name="email">
+                <p>Mensagem de feedback</p>
+
+                <div id="form-phone">
+                    <div>
+                        <label for="phone1" class="required">Telefone 1:</label>
+                        <input type="text" class="form-control" required="required" placeholder="(88) 8888-8888"
+                            id="phone1" name="phone1" onkeypress="$(this).mask('(00) 0000-00009')">
+                        <p>Mensagem de feedback</p>
+                    </div>
+
+                    <div>
+                        <label for="phone2">Telefone 2:</label>
+                        <input type="text" class="form-control" placeholder="(88) 8888-8888" id="phone2" name="phone2"
+                            onkeypress="$(this).mask('(00) 0000-00009')">
+                        <p>Mensagem de feedback</p>
+                    </div>
+                </div>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </div>
+
+        <div id="candidate-data">
+            <div id="border-top"></div>
+
+            <p id="text-top">FICHA DO CANDIDATO</p>
+
+            <p id="paragraph">Preencha o formulário e clique em "Enviar" após conferir atentamente.</p>
+
+            <div id="formValues"></div>
+
+            <p id="title-projects">Seus projetos:</p>
+
+            <div id="carousel">
+                <img id="imgcarousel" src="assets/imgcarousel.png">
+                <img id="imgcarousel" src="assets/image1carousel.png">
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div id="text-footer">DOCKET © 2019</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
